@@ -1,0 +1,20 @@
+.gist .highlight,
+.gist .line-numbers,
+.gist .line-numbers .line-number,
+.line-data,
+.line-data .line-pre,
+.line-data .line-pre .line,
+.line-data .line-pre .line span {
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.gist .highlight,
+.gist .line-numbers,
+.gist .line-data {
+	border: none;
+}
+.gist .highlight {
+	table-layout: auto;
+}
